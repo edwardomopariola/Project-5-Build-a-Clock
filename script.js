@@ -1,12 +1,14 @@
+let clock = document.getElementById("clock");
+
 function displayTime(){
-    var d = new Date();
-    var hour = d.getHours();
-    var min = d.getMinutes();
-    var sec = d.getSeconds();
-    var amOrpm = "AM";
+    let d = new Date();  //declaring varable for new date.
+    let hour = d.getHours(); //declaring variable for hour.
+    let min = d.getMinutes(); //declaring variable for minutes.
+    let sec = d.getSeconds(); //declaring variable for seconds
+    let amOrpm = "AM"; // declaring variable for AM or PM
     if(hour >= 12)
     {
-        amOrpm = "pm";
+        amOrpm = "PM";
     }
     if(hour > 12)
     {
