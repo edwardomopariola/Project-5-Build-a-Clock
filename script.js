@@ -1,4 +1,4 @@
-let clock = document.getElementById("clock");
+let clock = document.getElementById("clock"); // Using the DOM element I declared a varible with id "clock"
 
 function displayTime(){
     let d = new Date();  //declaring varable for new date.
